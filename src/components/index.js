@@ -1,2 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
 export { default as Navigation } from './Navigation';
+export { default as BookList } from './BookList';
+export { default as NewBookForm } from './NewBookForm';
