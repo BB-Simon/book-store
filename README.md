@@ -55,6 +55,12 @@
 
 ### Key Features <a name="key-features"></a>
 - **[Create react app by create-react-app]**
+- **[Add githubflow]**
+- **[Add linters configeration]**
+- **[Add browser routes]**
+- **[Add Navigation component]**
+- **[Add Home page]**
+- **[Add Categories page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
