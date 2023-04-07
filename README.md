@@ -64,6 +64,7 @@
 - **[Add redux store]**
 - **[Add book slice]**
 - **[Add category slice]**
+- **[Use redux by Hook API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
