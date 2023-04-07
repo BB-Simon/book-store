@@ -3,17 +3,17 @@ import Book from '../Book';
 import { removeBook } from '../../redux/books/booksSlice';
 
 const BookList = () => {
-  const books = useSelector((state) => state.book.books);
+  const { books } = useSelector((state) => state.book);
   const dispatch = useDispatch();
 
   return (
     <ul>
-      {books && books.map((book) => (
+      {books.length > 0 && books.map((book) => (
         <Book
-          key={book.id}
+          key={book.item_id}
           name={book.title}
           author={book.author}
-          id={book.id}
+          id={book.item_id}
           remove={(id) => dispatch(removeBook(id))}
         />
       ))}
