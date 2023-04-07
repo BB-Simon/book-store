@@ -61,6 +61,9 @@
 - **[Add Navigation component]**
 - **[Add Home page]**
 - **[Add Categories page]**
+- **[Add redux store]**
+- **[Add book slice]**
+- **[Add category slice]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
