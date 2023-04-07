@@ -14,7 +14,7 @@ const NewBookForm = ({ onSubmit }) => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     onSubmit({
-      id: Date.now().toString(),
+      item_id: Date.now().toString(),
       ...book,
     });
     setBook({ title: '', author: '' });

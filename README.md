@@ -65,6 +65,7 @@
 - **[Add book slice]**
 - **[Add category slice]**
 - **[Use redux by Hook API]**
+- **[Use async thunk for API request]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
