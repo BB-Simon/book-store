@@ -33,8 +33,8 @@
 
 # 📖 [Book Store] <a name="about-project"></a>
 
-**Book Store**
-
+**Book Store** is a book management application where we can read all information about a book and add new book to the libray and modify any the book information and remove any book
+ from the book libray.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -61,6 +61,17 @@
 - **[Add Navigation component]**
 - **[Add Home page]**
 - **[Add Categories page]**
+- **[Add redux store]**
+- **[Add book slice]**
+- **[Add category slice]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://book-store-9jwh.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
