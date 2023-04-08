@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import css from './NewBookForm.module.css';
 
 const NewBookForm = ({ onSubmit }) => {
   const [book, setBook] = useState({
@@ -21,8 +22,9 @@ const NewBookForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleOnSubmit}>
+    <form className={css.form} onSubmit={handleOnSubmit}>
       <input
+        className={css.titleInput}
         type="text"
         name="title"
         value={book.title}
@@ -30,13 +32,14 @@ const NewBookForm = ({ onSubmit }) => {
         placeholder="Book name"
       />
       <input
+        className={css.authorInput}
         type="text"
         name="author"
         value={book.author}
         onChange={handleOnChange}
         placeholder="Author name"
       />
-      <input type="submit" value="Add new Book" />
+      <input className={css.submitInput} type="submit" value="Add new Book" />
     </form>
   );
 };

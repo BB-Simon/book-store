@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { BookList, NewBookForm } from '../../components';
+import { BookList, Line, NewBookForm } from '../../components';
 import styles from './Home.module.css';
 import { addBook, getBooks } from '../../redux/books/booksSlice';
 
@@ -23,7 +23,9 @@ const HomePage = () => {
         ) : null}
         {!booksLoading && !booksError ? <BookList /> : null}
       </section>
-      <section>
+      <Line width="100%" margin="2.5rem 0 1.813rem" />
+      <section className={styles.addBookFormSection}>
+        <h2 className={styles.addBookTitle}>Add new book</h2>
         <NewBookForm onSubmit={(book) => dispatch(addBook(book))} />
       </section>
     </div>
